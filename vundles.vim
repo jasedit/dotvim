@@ -28,6 +28,7 @@ if count(g:vundles, 'general')
   Bundle 'Raimondi/delimitMate'
   Bundle 'bling/vim-airline'
   Bundle 'rodjek/vim-puppet'
+  Bundle 'altercation/vim-colors-solarized'
 endif
 
 if count(g:vundles, 'git')

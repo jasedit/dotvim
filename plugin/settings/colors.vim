@@ -36,8 +36,6 @@ if has("user_commands")
     colorscheme base16-solarized
   elseif (match($LC_TERM_PROFILE, "base16-tomorrow") != -1)
     colorscheme base16-tomorrow
-  else
-    colorscheme base16-default
   endif
   if (match($LC_TERM_PROFILE, "base16") != -1)
     highlight clear SignColumn
